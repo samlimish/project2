@@ -41,7 +41,7 @@ And because of this most of the data showed signs of heteroscedesticity.
 
 After some changes to the model, variables containing larger numbers were log transformed and scaled, except price. The condition variable was also changed from a numerical varaible into a categorical variable where one of the columns is dropped so that the other columns could have a point of reference to.
 
-![SecondModel](images/second_mode.JPG)
+![SecondModel](images/second_model.JPG)
 
 The second model suffers from a lower R-squared value and some multicollinearity issues. This was because I had not taken into consideration the effect that a location has on the price of real estate. 
 
